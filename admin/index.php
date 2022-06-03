@@ -1,5 +1,4 @@
 
-
         <?php include_once 'inc/header.php'?>
 
             <!-- ========== Left Sidebar Start ========== -->
@@ -112,7 +111,7 @@
                     </div> <!-- container-fluid -->
                 </div>
                 <!-- End Page-content -->
-                
+
             <!-- Start footer section -->
             <?php require_once "inc/footer.php" ?>
             <!-- End footer section -->
