@@ -1,5 +1,7 @@
 <?php 
 
+include_once "../config/config.php";
+
 class Database{
     public $host = DB_HOST;
     public $user = DB_USER;
@@ -14,7 +16,7 @@ class Database{
     }
 
     public function dbConnect(){
-        $this->link = mysql_connect($this->host,$this->user,$this->password,$this->database);
+        $this->link = mysqli_connect($this->host,$this->user,$this->password,$this->database);
 
         if(!$this->link){
             $this->error = 'Database connection failed';
