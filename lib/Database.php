@@ -10,10 +10,10 @@ class Database{
     public $error;
 
     public function __construct(){
-        $this->dbCOnnect();
+        $this->dbConnect();
     }
 
-    public dbCOnnect(){
+    public function dbConnect(){
         $this->link = mysql_connect($this->host,$this->user,$this->password,$this->database);
 
         if(!$this->link){
@@ -23,7 +23,7 @@ class Database{
     }
 
     //Select query from database
-    public select($query){
+    public function select($query){
         $result = mysql_query($this->link,$query) or die($this->link->error.__LINE__);
 
         if(mysql_num_rows($result) > 0){
@@ -34,7 +34,7 @@ class Database{
     }
 
     //Insert query from database
-    public insert($query){
+    public function insert($query){
         $result = mysql_query($this->link,$query) or die($this->link->error.__LINE__);
 
         if($result){
@@ -44,7 +44,7 @@ class Database{
         }
     }
     //Update query from database
-    public update($query){
+    public function update($query){
         $result = mysql_query($this->link,$query) or die($this->link->error.__LINE__);
 
         if($result){
@@ -54,7 +54,7 @@ class Database{
         }
     }
     //Delete query from database
-    public delete($query){
+    public function delete($query){
         $result = mysql_query($this->link,$query) or die($this->link->error.__LINE__);
 
         if($result){
