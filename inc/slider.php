@@ -5,7 +5,7 @@
 
               <div class="owl-carousel owl-theme home-slider">
                 <div>
-                  <a href="blog-single.html" class="a-block d-flex align-items-center height-lg" style="background-image: url('images/img_1.jpg'); ">
+                  <a href="blog-single.php" class="a-block d-flex align-items-center height-lg" style="background-image: url('images/img_1.jpg'); ">
                     <div class="text half-to-full">
                       <span class="category mb-5">Food</span>
                       <div class="post-meta">
@@ -21,7 +21,7 @@
                   </a>
                 </div>
                 <div>
-                  <a href="blog-single.html" class="a-block d-flex align-items-center height-lg" style="background-image: url('images/img_2.jpg'); ">
+                  <a href="blog-single.php" class="a-block d-flex align-items-center height-lg" style="background-image: url('images/img_2.jpg'); ">
                     <div class="text half-to-full">
                       <span class="category mb-5">Travel</span>
                       <div class="post-meta">
@@ -37,7 +37,7 @@
                   </a>
                 </div>
                 <div>
-                  <a href="blog-single.html" class="a-block d-flex align-items-center height-lg" style="background-image: url('images/img_3.jpg'); ">
+                  <a href="blog-single.php" class="a-block d-flex align-items-center height-lg" style="background-image: url('images/img_3.jpg'); ">
                     <div class="text half-to-full">
                       <span class="category mb-5">Sports</span>
                       <div class="post-meta">
